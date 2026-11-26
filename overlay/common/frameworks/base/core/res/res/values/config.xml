@@ -177,7 +177,7 @@
     <bool name="config_glanceableHubEnabled">true</bool>
 
     <!-- Whether glanceable hub is enabled by default. -->
-    <bool name="config_glanceableHubEnabledByDefault">true</bool>
+    <bool name="config_glanceableHubEnabledByDefault">false</bool>
 
     <!-- The default list of possible CMF Names|Style|ColorSource. This array can be
          overridden device-specific resources. A wildcard (fallback) must be supplied.
