@@ -31,9 +31,7 @@ PRODUCT_PACKAGES += \
     zstd
 
 # Fonts
-PRODUCT_PACKAGES += \
-    fonts_customization.xml \
-    FontGoogleSansFlexOverlay
+include packages/overlays/Lineage/fonts/fonts.mk
 
 # Include Lineage LatinIME dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/lineage/overlay/dictionaries
